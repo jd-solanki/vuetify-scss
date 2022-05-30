@@ -1,9 +1,9 @@
-@forward "lib" with (
-    $br: 10px !default,
+@forward "vuetify/styles" with (
+    $border-radius-root: 10px !default,
 );
 
-@use "lib";
+@use "vuetify/styles";
 
 .v-btn {
-    border-radius: lib.$br;
+    border-radius: styles.$border-radius-root;
 }

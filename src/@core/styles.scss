@@ -1,0 +1,9 @@
+@forward "lib" with (
+    $br: 10px !default,
+);
+
+@use "lib";
+
+.v-btn {
+    border-radius: lib.$br;
+}

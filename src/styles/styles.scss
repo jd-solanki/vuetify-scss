@@ -1,0 +1,5 @@
+// @use "../@core/styles";
+
+@forward "../@core/styles" with (
+    $br: 14px,
+);
